@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿
+
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProjectMonitorAPI.Models;
 using ProjectMonitorAPI.Services;
@@ -25,7 +27,7 @@ namespace ProjectMonitorAPI.Controllers
         {
             try
             {
-                var employees = _userService.GetEmployeesList();
+                List<User> employees = _userService.GetEmployeesList();
                 if (employees == null)
                     return NotFound();
                 return Ok(employees);

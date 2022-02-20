@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectMonitorAPI", "ProjectMonitorAPI\ProjectMonitorAPI.csproj", "{28FD24C9-7DAE-4098-AF4E-74F3E2CE754B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectMonitorAPI", "ProjectMonitorAPI\ProjectMonitorAPI.csproj", "{28FD24C9-7DAE-4098-AF4E-74F3E2CE754B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "´TestMonitor", "´TestMonitor\´TestMonitor.csproj", "{28B19479-9DEA-48A1-83F2-430B5CEE8B53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{28FD24C9-7DAE-4098-AF4E-74F3E2CE754B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28FD24C9-7DAE-4098-AF4E-74F3E2CE754B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28FD24C9-7DAE-4098-AF4E-74F3E2CE754B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B19479-9DEA-48A1-83F2-430B5CEE8B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B19479-9DEA-48A1-83F2-430B5CEE8B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B19479-9DEA-48A1-83F2-430B5CEE8B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B19479-9DEA-48A1-83F2-430B5CEE8B53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
